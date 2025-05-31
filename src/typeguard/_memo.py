@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from typeguard._config import TypeCheckConfiguration, global_config
+from ._config import TypeCheckConfiguration, global_config
 
 
 class TypeCheckMemo:
